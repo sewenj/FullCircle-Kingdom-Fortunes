@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+  background-color: #f8f9fa;
+  color: #09212B;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #011A32;
+  padding: 15px 0;
+}
+
+nav a {
+  color: gold;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #ffc107;
+}
+
+.hero {
+  height: 100vh;
+  background: linear-gradient(rgba(9, 21, 43, 0.6), rgba(9, 21, 43, 0.6)), 
+              url('../images/hero-group.jpg') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  color: gold;
+}
+
+.cta-buttons a {
+  text-decoration: none;
+  margin: 10px;
+  padding: 12px 24px;
+  background-color: gold;
+  color: #09212B;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.cta-buttons a:hover {
+  background-color: #ffc107;
+}
+
+.team {
+  text-align: center;
+  padding: 40px;
+}
+
+.team img {
+  width: 90%;
+  max-width: 700px;
+  border-radius: 15px;
+}
